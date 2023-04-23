@@ -1,0 +1,26 @@
+body {
+    margin: 0px;
+}
+
+ul {
+    display: flex;
+    margin: 0px;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: darkslategray;
+}
