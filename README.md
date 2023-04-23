@@ -1,0 +1,1 @@
+Project from The Odin Project to build a landing page. See more at: https://www.theodinproject.com/lessons/foundations-landing-page
