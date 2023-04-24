@@ -164,8 +164,17 @@ a {
 
 .footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
     color: #E5E7EB;
+}
+
+.footer p {
+    margin: 4px;
+}
+
+.footer a {
+    text-decoration: underline;
 }
