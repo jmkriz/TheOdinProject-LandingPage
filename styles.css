@@ -19,12 +19,15 @@ button {
     margin-top: 12px;
     color: #F9FAF8;
     background-color: #3882F6;
-    border: none;
     border-radius: 12px;
     padding: 8px 24px;
     text-align: center;
     text-decoration: none;
     font-weight: 700;
+}
+
+.top .text button {
+    border: none;
 }
 
 a {
@@ -38,11 +41,16 @@ a {
     color: #E5E7EB;
 }
 
-strong {
+.top strong {
     font-weight: 900;
     font-size: 48px;
     color: #F9FAF8;
     line-height: 110%;
+}
+
+.top img {
+    width: 500px;
+    height: auto;
 }
 
 .logo {
@@ -87,6 +95,12 @@ strong {
     font-size: 36px;
 }
 
+.random-info img {
+    width: 200px;
+    height: auto;
+    border-radius: 12px;
+}
+
 .smallimage {
     width: 200px;
     height: 200px;
@@ -121,4 +135,37 @@ strong {
 .attribution {
     text-align: right;
     font-weight: 700;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.call-to-action .box {
+    background-color: #3882F6;
+    border-radius: 24px;
+    padding: 36px 12px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.call-to-action .box .text p{
+    color: #E5E7EB;
+    margin: 0px;
+}
+
+.call-to-action .box button {
+    border: 3px solid white;
+    margin: 0px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
